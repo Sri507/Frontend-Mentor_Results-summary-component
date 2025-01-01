@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <p class="title">Your Result</p>
+        <div class="circlel">
+          <div class="result">76</div>
+          <div class="total">of 100</div>
+        </div>
+        <div class="remark-container">
+          <h1 class="remark">Great</h1>
+          <p class="word">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="right-side">
+        <p class="summary">Summary</p>
+        <div class="right-container">
+          <div class="segment segment-1">
+            <div class="part">
+              <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+              <div class="name-1">Reaction</div>
+            </div>
+            <div class="marks">80 <span>/ 100</span></div>
+          </div>
+          <div class="segment segment-2">
+            <div class="part">
+              <img src="./assets/images/icon-memory.svg" alt="memory" />
+              <div class="name-2">Memory</div>
+            </div>
+            <div class="marks">92 <span>/ 100</span></div>
+          </div>
+          <div class="segment segment-3">
+            <div class="part">
+              <img src="./assets/images/icon-verbal.svg" alt="verbal" />
+              <div class="name-3">Verbal</div>
+            </div>
+            <div class="marks">61 <span>/ 100</span></div>
+          </div>
+          <div class="segment segment-4">
+            <div class="part">
+              <img src="./assets/images/icon-visual.svg" alt="visual" />
+              <div class="name-4">Visual</div>
+            </div>
+            <div class="marks">72 <span>/ 100</span></div>
+          </div>
+        </div>
+        <div class="buttonr">Continue</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
